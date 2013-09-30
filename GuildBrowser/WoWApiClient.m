@@ -7,6 +7,7 @@
 
 static dispatch_once_t oncePredicate;
 
+//singleton
 + (WoWApiClient *)sharedClient
 {
     static WoWApiClient *_sharedClient;
